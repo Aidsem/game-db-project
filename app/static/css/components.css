@@ -1,0 +1,36 @@
+/* components.css - buttons, forms, cards, chips, tables, skeletons, empty states */
+.btn { background: var(--surface-2); color: var(--text); border: 1px solid var(--border); border-radius: 8px; padding: 8px 14px; font: inherit; font-weight: 500; cursor: pointer; }
+.btn:hover { border-color: var(--teal); }
+.btn.primary { background: var(--teal); color: #0b1a19; border-color: var(--teal); }
+.btn.danger { border-color: var(--red); } .btn.danger.primary { background: var(--red); color: #fff; }
+.btn.ghost { background: transparent; text-align: left; }
+.icon-btn { background: none; border: 0; color: var(--muted); font-size: 16px; cursor: pointer; }
+.icon-btn:hover { color: var(--text); }
+
+input, select, textarea { background: var(--bg); color: var(--text); border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; font: inherit; min-width: 0; }
+input:focus, select:focus, textarea:focus { outline: 2px solid rgba(63,201,190,.4); border-color: var(--teal); }
+label { display: block; font-size: 12px; color: var(--muted); margin-bottom: 4px; }
+.field { margin-bottom: 12px; } .field input, .field select, .field textarea { width: 100%; }
+.form-actions { display: flex; justify-content: flex-end; gap: 10px; margin-top: 16px; }
+
+.card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px 16px; }
+.card.clickable { cursor: pointer; transition: transform .12s, border-color .12s; } .card.clickable:hover { transform: translateY(-2px); border-color: var(--teal); }
+.stat { font-family: var(--font-mono); font-size: 28px; font-weight: 500; } .stat-label { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .06em; }
+.chip { display: inline-flex; align-items: center; gap: 6px; background: var(--surface-2); border: 1px solid var(--border); border-radius: 999px; padding: 2px 10px; font-size: 12px; }
+.chip .swatch { width: 8px; height: 8px; border-radius: 50%; }
+.tier-badge { display: inline-grid; place-items: center; width: 28px; height: 28px; border-radius: 6px; font-weight: 700; color: #11131a; }
+.rarity { color: var(--amber); letter-spacing: 2px; font-size: 12px; }
+
+.table-wrap { overflow-x: auto; border: 1px solid var(--border); border-radius: var(--radius); }
+.data-table { width: 100%; border-collapse: collapse; }
+.data-table th, .data-table td { padding: 9px 12px; text-align: left; border-bottom: 1px solid var(--border); white-space: nowrap; }
+.data-table th { background: var(--surface-2); color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .05em; }
+.data-table th.sortable { cursor: pointer; } .data-table th.sortable:hover { color: var(--text); }
+.data-table tr.clickable { cursor: pointer; } .data-table tbody tr:hover { background: rgba(255,255,255,.03); }
+
+.skeleton-wrap { display: grid; gap: 12px; }
+.skeleton { height: 54px; border-radius: var(--radius); background: linear-gradient(90deg, var(--surface) 25%, var(--surface-2) 37%, var(--surface) 63%); background-size: 400% 100%; animation: shimmer 1.4s infinite; }
+@keyframes shimmer { 0% { background-position: 100% 0; } 100% { background-position: 0 0; } }
+.empty { text-align: center; color: var(--muted); padding: 60px 20px; } .empty-icon { font-size: 34px; color: var(--border); }
+img.graph { width: 100%; border-radius: var(--radius); border: 1px solid var(--border); }
+pre.sql { background: var(--bg); border: 1px solid var(--border); border-radius: 8px; padding: 12px; overflow-x: auto; font-family: var(--font-mono); font-size: 12px; }

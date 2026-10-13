@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Codex - Game Companion Database</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/layout.css">
+  <link rel="stylesheet" href="/css/components.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand"><span class="brand-mark">◆</span> Codex</div>
+    <nav id="nav">
+      <a href="#/" data-route="/">Dashboard</a>
+      <a href="#/characters" data-route="/characters">Characters</a>
+      <a href="#/weapons" data-route="/weapons">Weapons</a>
+      <a href="#/artifacts" data-route="/artifacts">Artifacts</a>
+      <a href="#/tiers" data-route="/tiers">Tier Lists</a>
+      <a href="#/builds" data-route="/builds">Builds</a>
+      <a href="#/damage-lab" data-route="/damage-lab">Damage Lab</a>
+      <a href="#/compare" data-route="/compare">Compare</a>
+      <a href="#/sql" data-route="/sql">SQL Explorer</a>
+    </nav>
+    <div class="sidebar-foot">
+      <button id="search-btn" class="btn ghost" type="button">Search <kbd>Ctrl K</kbd></button>
+      <div class="conn"><span id="conn-dot" class="dot"></span><span id="conn-text">checking…</span></div>
+    </div>
+  </aside>
+
+  <main id="view" class="main"></main>
+
+  <aside id="drawer" class="drawer" aria-label="Details"></aside>
+  <div id="modal-root"></div>
+  <div id="toasts" class="toasts" aria-live="polite"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script type="module" src="/js/main.js"></script>
+</body>
+</html>

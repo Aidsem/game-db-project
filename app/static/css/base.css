@@ -1,0 +1,19 @@
+/* base.css - variables, fonts, resets */
+:root {
+  --bg: #14161C; --surface: #1B1E27; --surface-2: #232733; --border: #2A2E3A;
+  --text: #ECEDF2; --muted: #8B90A3;
+  --teal: #3FC9BE; --amber: #F2A541; --violet: #8B7FD8; --red: #E2622C; --green: #6FBF7A;
+  --radius: 12px;
+  --font-ui: 'Inter', system-ui, sans-serif;
+  --font-head: 'Fraunces', Georgia, serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; }
+body { background: var(--bg); color: var(--text); font-family: var(--font-ui); font-size: 14px; line-height: 1.5; display: flex; }
+h1, h2, h3 { font-family: var(--font-head); font-weight: 700; margin: 0 0 .5em; }
+h1 { font-size: 28px; } h2 { font-size: 20px; } h3 { font-size: 16px; }
+a { color: var(--teal); text-decoration: none; }
+p { margin: 0 0 .75em; }
+.muted { color: var(--muted); } .mono { font-family: var(--font-mono); }
+::-webkit-scrollbar { width: 10px; height: 10px; } ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 8px; }
