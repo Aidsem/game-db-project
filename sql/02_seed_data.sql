@@ -8,8 +8,13 @@
 -- =====================================================================
 
 
-TRUNCATE TABLE build_team_members, builds, tier_list_exploration, tier_list_combat,
-         artifacts, weapons, characters RESTART IDENTITY CASCADE;
+DELETE FROM build_team_members;
+DELETE FROM builds;
+DELETE FROM tier_list_exploration;
+DELETE FROM tier_list_combat;
+DELETE FROM artifacts;
+DELETE FROM weapons;
+DELETE FROM characters;
 
 -- ---------------------------------------------------------------------
 -- 1) CHARACTERS  (release_order, name, rarity, element, weapon_type, description)
@@ -97,10 +102,10 @@ INSERT INTO characters (release_order, name, rarity, element, weapon_type, descr
 INSERT INTO characters (release_order, name, rarity, element, weapon_type, description) VALUES (80, 'Mavuika', 5, 'Pyro', 'Claymore', 'The Pyro Archon and War Chief of Natlan; on-field Nightsoul Pyro DPS.');
 INSERT INTO characters (release_order, name, rarity, element, weapon_type, description) VALUES (81, 'Citlali', 5, 'Cryo', 'Catalyst', 'Saurian rider and priestess of the Ochkanacatl tribe; Cryo support/sub-DPS.');
 INSERT INTO characters (release_order, name, rarity, element, weapon_type, description) VALUES (82, 'Kinich', 5, 'Dendro', 'Claymore', 'Saurian rider of the Scions of the Canopy; Nightsoul Dendro DPS.');
-INSERT INTO characters (release_order, name, rarity, element, weapon_type, description) VALUES (83, 'Mualani', 5, 'Hydro', 'Claymore', 'Saurian rider and tour guide of Natlan; surfboard-based Hydro DPS.');
+INSERT INTO characters (release_order, name, rarity, element, weapon_type, description) VALUES (83, 'Mualani', 5, 'Hydro', 'Catalyst', 'Saurian rider and tour guide of Natlan; surfboard-based Hydro DPS.');
 INSERT INTO characters (release_order, name, rarity, element, weapon_type, description) VALUES (84, 'Xilonen', 5, 'Geo', 'Sword', 'Chief blacksmith of the Mavuika tribe; Geo support with ATK/RES buffs.');
 INSERT INTO characters (release_order, name, rarity, element, weapon_type, description) VALUES (85, 'Ororon', 4, 'Electro', 'Bow', 'Saurian rider seeking his father; Electro sub-DPS with skill-cost Nightsoul.');
-INSERT INTO characters (release_order, name, rarity, element, weapon_type, description) VALUES (86, 'Kachina', 4, 'Geo', 'Catalyst', 'Youngest engineer of the Scions of the Canopy; Geo shield-break support.');
+INSERT INTO characters (release_order, name, rarity, element, weapon_type, description) VALUES (86, 'Kachina', 4, 'Geo', 'Polearm', 'Youngest engineer of the Scions of the Canopy; Geo shield-break support.');
 INSERT INTO characters (release_order, name, rarity, element, weapon_type, description) VALUES (87, 'Kaedehara Kazuha', 5, 'Anemo', 'Sword', 'A wandering samurai of Inazuma; premier Swirl-based Anemo support.');
 
 -- ---------------------------------------------------------------------

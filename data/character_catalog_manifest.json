@@ -1,0 +1,4383 @@
+{
+  "manifest_version": 1,
+  "catalog_snapshot": {
+    "retrieved_on": "2026-10-14",
+    "primary_source": "genshin-db",
+    "source_version": "5.2.14",
+    "source_repository": "https://github.com/theBowja/genshin-db",
+    "source_index": "src/data/index/English/characters.json",
+    "classification_basis": "Combat playable roster is reviewed against official playable-character and event-wish evidence; genshin-db presence alone is not sufficient. Miliastra Wonderland avatars are separately scoped.",
+    "source_package_version": "5.2.14",
+    "source_data_release": "Genshin Impact v7.1 JSON data",
+    "source_index_entries": 124,
+    "included_source_records": 124,
+    "candidate_source_records": 0
+  },
+  "canonical_entities": [
+    {
+      "canonical_key": "aino",
+      "name": "Aino",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000121",
+          "source_key": "aino",
+          "source_name": "Aino",
+          "record_path": "src/data/English/characters/aino.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Aino",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Cistellula Mira",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Clinky-Clank Gadgets-A-Gogo",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": [],
+      "classification_evidence": [
+        {
+          "authority": "HoYoverse official source",
+          "url": "https://genshin.hoyoverse.com/en/news/detail/159349",
+          "evidence": "Official Luna I update details introduce Aino as a 4-star character."
+        }
+      ]
+    },
+    {
+      "canonical_key": "albedo",
+      "name": "Albedo",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000038",
+          "source_key": "albedo",
+          "source_name": "Albedo",
+          "record_path": "src/data/English/characters/albedo.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Albedo",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Kreideprinz",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Princeps Cretaceus",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "alhaitham",
+      "name": "Alhaitham",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000078",
+          "source_key": "alhaitham",
+          "source_name": "Alhaitham",
+          "record_path": "src/data/English/characters/alhaitham.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Admonishing Instruction",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Alhaitham",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Vultur Volans",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "aloy",
+      "name": "Aloy",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000062",
+          "source_key": "aloy",
+          "source_name": "Aloy",
+          "record_path": "src/data/English/characters/aloy.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Aloy",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Nora Fortis",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Savior From Another World",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": [],
+      "classification_evidence": [
+        {
+          "authority": "HoYoverse official source",
+          "url": "https://genshin.hoyoverse.com/en/news/detail/104025",
+          "evidence": "Official Version 2.1 update details identify Aloy as a 5-star character and describe in-game acquisition."
+        }
+      ]
+    },
+    {
+      "canonical_key": "alyosha",
+      "name": "Alyosha",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000148",
+          "source_key": "alyosha",
+          "source_name": "Alyosha",
+          "record_path": "src/data/English/characters/alyosha.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Alyosha",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Canis Borzoides",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Swift-Striding Hound",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": [],
+      "classification_evidence": [
+        {
+          "authority": "HoYoverse official source",
+          "url": "https://genshin.hoyoverse.com/zh-cn/news/detail/165610",
+          "evidence": "Official Version 7.0 event-wish notice lists Alyosha as a 4-star wish character."
+        }
+      ]
+    },
+    {
+      "canonical_key": "amber",
+      "name": "Amber",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000021",
+          "source_key": "amber",
+          "source_name": "Amber",
+          "record_path": "src/data/English/characters/amber.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Amber",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Gliding Champion",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Lepus",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "aratakiitto",
+      "name": "Arataki Itto",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000057",
+          "source_key": "aratakiitto",
+          "source_name": "Arataki Itto",
+          "record_path": "src/data/English/characters/aratakiitto.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Arataki Itto",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Hanamizaka Heroics",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Taurus Iracundus",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "arlecchino",
+      "name": "Arlecchino",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000096",
+          "source_key": "arlecchino",
+          "source_name": "Arlecchino",
+          "record_path": "src/data/English/characters/arlecchino.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Arlecchino",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Dire Balemoon",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Ignis Purgatorius",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "baizhu",
+      "name": "Baizhu",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000082",
+          "source_key": "baizhu",
+          "source_name": "Baizhu",
+          "record_path": "src/data/English/characters/baizhu.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Baizhu",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Beyond Mortality",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Lagenaria",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "barbara",
+      "name": "Barbara",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000014",
+          "source_key": "barbara",
+          "source_name": "Barbara",
+          "record_path": "src/data/English/characters/barbara.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Barbara",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Crater",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Shining Idol",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "beidou",
+      "name": "Beidou",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000024",
+          "source_key": "beidou",
+          "source_name": "Beidou",
+          "record_path": "src/data/English/characters/beidou.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Beidou",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Uncrowned Lord of the Ocean",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Victor Mare",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "bennett",
+      "name": "Bennett",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000032",
+          "source_key": "bennett",
+          "source_name": "Bennett",
+          "record_path": "src/data/English/characters/bennett.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Bennett",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Rota Calamitas",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Trial by Fire",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "candace",
+      "name": "Candace",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000072",
+          "source_key": "candace",
+          "source_name": "Candace",
+          "record_path": "src/data/English/characters/candace.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Candace",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Golden Vow",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Sagitta Scutum",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "charlotte",
+      "name": "Charlotte",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000088",
+          "source_key": "charlotte",
+          "source_name": "Charlotte",
+          "record_path": "src/data/English/characters/charlotte.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Charlotte",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Hualina Veritas",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Lens of Verity",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "chasca",
+      "name": "Chasca",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000104",
+          "source_key": "chasca",
+          "source_name": "Chasca",
+          "record_path": "src/data/English/characters/chasca.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Chasca",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Skyborne Arbiter",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Vultur Gryphus",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": [],
+      "classification_evidence": [
+        {
+          "authority": "HoYoverse official source",
+          "url": "https://genshin.hoyoverse.com/es/news/detail/126974",
+          "evidence": "Official Version 5.2 event-wish notice lists Chasca as the limited 5-star character."
+        }
+      ]
+    },
+    {
+      "canonical_key": "chevreuse",
+      "name": "Chevreuse",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000090",
+          "source_key": "chevreuse",
+          "source_name": "Chevreuse",
+          "record_path": "src/data/English/characters/chevreuse.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Chevreuse",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Executor of Justice",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Sclopetum Ensiferum",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "chiori",
+      "name": "Chiori",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000094",
+          "source_key": "chiori",
+          "source_name": "Chiori",
+          "record_path": "src/data/English/characters/chiori.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Chiori",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Cisoria",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "The Thundering Seamstress",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "chongyun",
+      "name": "Chongyun",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000036",
+          "source_key": "chongyun",
+          "source_name": "Chongyun",
+          "record_path": "src/data/English/characters/chongyun.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Chongyun",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Frozen Ardor",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Nubis Caesor",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "citlali",
+      "name": "Citlali",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000107",
+          "source_key": "citlali",
+          "source_name": "Citlali",
+          "record_path": "src/data/English/characters/citlali.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Citlali",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Obsidian Opalstar",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Patina Anavatlaca",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "clorinde",
+      "name": "Clorinde",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000098",
+          "source_key": "clorinde",
+          "source_name": "Clorinde",
+          "record_path": "src/data/English/characters/clorinde.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Candlebearer, Shadowhunter",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Clorinde",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Rapperia",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "collei",
+      "name": "Collei",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000067",
+          "source_key": "collei",
+          "source_name": "Collei",
+          "record_path": "src/data/English/characters/collei.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Collei",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Leptailurus Cervarius",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Sprout of Rebirth",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "columbina",
+      "name": "Columbina",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000125",
+          "source_key": "columbina",
+          "source_name": "Columbina",
+          "record_path": "src/data/English/characters/columbina.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Columbina",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Welkin Moon's Homecoming",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": [],
+      "classification_evidence": [
+        {
+          "authority": "HoYoverse official source",
+          "url": "https://genshin.hoyoverse.com/m/en/news/detail/161971",
+          "evidence": "Official skill showcase announces Columbina’s event wish and combat kit."
+        }
+      ]
+    },
+    {
+      "canonical_key": "cyno",
+      "name": "Cyno",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000071",
+          "source_key": "cyno",
+          "source_name": "Cyno",
+          "record_path": "src/data/English/characters/cyno.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Cyno",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Judicator of Secrets",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Lupus Aureus",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "dahlia",
+      "name": "Dahlia",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000115",
+          "source_key": "dahlia",
+          "source_name": "Dahlia",
+          "record_path": "src/data/English/characters/dahlia.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Cantus Choralis",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Dahlia",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Ode and Oblation",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": [],
+      "classification_evidence": [
+        {
+          "authority": "HoYoverse official source",
+          "url": "https://genshin.hoyoverse.com/en/news/detail/166634",
+          "evidence": "Official Version 7.1 event-wish notice lists Dahlia as a 4-star character."
+        }
+      ]
+    },
+    {
+      "canonical_key": "dehya",
+      "name": "Dehya",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000079",
+          "source_key": "dehya",
+          "source_name": "Dehya",
+          "record_path": "src/data/English/characters/dehya.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Dehya",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Flame-Mane",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Mantichora",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "diluc",
+      "name": "Diluc",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000016",
+          "source_key": "diluc",
+          "source_name": "Diluc",
+          "record_path": "src/data/English/characters/diluc.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Dark Side of Dawn",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Diluc",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Noctua",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "diona",
+      "name": "Diona",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000039",
+          "source_key": "diona",
+          "source_name": "Diona",
+          "record_path": "src/data/English/characters/diona.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Diona",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Feles",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Kätzlein Cocktail",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "dori",
+      "name": "Dori",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000068",
+          "source_key": "dori",
+          "source_name": "Dori",
+          "record_path": "src/data/English/characters/dori.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Dori",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Magicae Lucerna",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Treasure of Dream Garden",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "durin",
+      "name": "Durin",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000123",
+          "source_key": "durin",
+          "source_name": "Durin",
+          "record_path": "src/data/English/characters/durin.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "\"The Undying Fire\"",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Draco Rubedo",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Durin",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": [],
+      "classification_evidence": [
+        {
+          "authority": "HoYoverse official source",
+          "url": "https://genshin.hoyoverse.com/es-es/news/detail/164019",
+          "evidence": "Official Luna VII event-wish notice lists Durin as a limited 5-star character."
+        }
+      ]
+    },
+    {
+      "canonical_key": "emilie",
+      "name": "Emilie",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000099",
+          "source_key": "emilie",
+          "source_name": "Emilie",
+          "record_path": "src/data/English/characters/emilie.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "A Thousand Scents Traced",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Emilie",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Pomum de Ambra",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "escoffier",
+      "name": "Escoffier",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000112",
+          "source_key": "escoffier",
+          "source_name": "Escoffier",
+          "record_path": "src/data/English/characters/escoffier.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Dulciaria Structura",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Escoffier",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Tasteful Excellence",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": [],
+      "classification_evidence": [
+        {
+          "authority": "HoYoverse official source",
+          "url": "https://genshin.hoyoverse.com/it/news/detail/155739",
+          "evidence": "Official Version 5.6 update details introduce Escoffier as a 5-star character."
+        }
+      ]
+    },
+    {
+      "canonical_key": "eula",
+      "name": "Eula",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000051",
+          "source_key": "eula",
+          "source_name": "Eula",
+          "record_path": "src/data/English/characters/eula.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Aphros Delos",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Dance of the Shimmering Wave",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Eula",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "faruzan",
+      "name": "Faruzan",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000076",
+          "source_key": "faruzan",
+          "source_name": "Faruzan",
+          "record_path": "src/data/English/characters/faruzan.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Enigmatic Machinist",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Faruzan",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Flosculi Implexi",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "fischl",
+      "name": "Fischl",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000031",
+          "source_key": "fischl",
+          "source_name": "Fischl",
+          "record_path": "src/data/English/characters/fischl.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Corvus",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Fischl",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Prinzessin der Verurteilung!",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "flins",
+      "name": "Flins",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000120",
+          "source_key": "flins",
+          "source_name": "Flins",
+          "record_path": "src/data/English/characters/flins.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Flins",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Laterna Vigilis",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Shadowy Lights, Stranger Wights",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": [],
+      "classification_evidence": [
+        {
+          "authority": "HoYoverse official source",
+          "url": "https://genshin.hoyoverse.com/en/news/detail/159349",
+          "evidence": "Official Luna I update details introduce Flins as a 5-star character."
+        }
+      ]
+    },
+    {
+      "canonical_key": "freminet",
+      "name": "Freminet",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000085",
+          "source_key": "freminet",
+          "source_name": "Freminet",
+          "record_path": "src/data/English/characters/freminet.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Automaton",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Freminet",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Yearning for Unseen Depths",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "furina",
+      "name": "Furina",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000089",
+          "source_key": "furina",
+          "source_name": "Furina",
+          "record_path": "src/data/English/characters/furina.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Animula Choragi",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Endless Solo of Solitude",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Furina",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "gaming",
+      "name": "Gaming",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000092",
+          "source_key": "gaming",
+          "source_name": "Gaming",
+          "record_path": "src/data/English/characters/gaming.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Gaming",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Leo Expergiscens",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Leonine Vanguard",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "ganyu",
+      "name": "Ganyu",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000037",
+          "source_key": "ganyu",
+          "source_name": "Ganyu",
+          "record_path": "src/data/English/characters/ganyu.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Ganyu",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Plenilune Gaze",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Sinae Unicornis",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "gorou",
+      "name": "Gorou",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000055",
+          "source_key": "gorou",
+          "source_name": "Gorou",
+          "record_path": "src/data/English/characters/gorou.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Canine Warrior",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Canis Bellatoris",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Gorou",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "hutao",
+      "name": "Hu Tao",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000046",
+          "source_key": "hutao",
+          "source_name": "Hu Tao",
+          "record_path": "src/data/English/characters/hutao.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Fragrance in Thaw",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Hu Tao",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Papilio Charontis",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "iansan",
+      "name": "Iansan",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000110",
+          "source_key": "iansan",
+          "source_name": "Iansan",
+          "record_path": "src/data/English/characters/iansan.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Carnotaurus",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Iansan",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Tempered in Molten Stone",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": [],
+      "classification_evidence": [
+        {
+          "authority": "HoYoverse official source",
+          "url": "https://genshin.hoyoverse.com/en/news/detail/155172",
+          "evidence": "Official Version 5.5 update details introduce Iansan as a 4-star character."
+        }
+      ]
+    },
+    {
+      "canonical_key": "ifa",
+      "name": "Ifa",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000113",
+          "source_key": "ifa",
+          "source_name": "Ifa",
+          "record_path": "src/data/English/characters/ifa.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Catena Opele",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Ifa",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "In the Wake of Wandering Winds",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": [],
+      "classification_evidence": [
+        {
+          "authority": "HoYoverse official source",
+          "url": "https://genshin.hoyoverse.com/es/news/detail/158611",
+          "evidence": "Official Version 5.8 event-wish notice lists Ifa as a 4-star character."
+        }
+      ]
+    },
+    {
+      "canonical_key": "illuga",
+      "name": "Illuga",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000127",
+          "source_key": "illuga",
+          "source_name": "Illuga",
+          "record_path": "src/data/English/characters/illuga.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Illuga",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Nightmare's Burning Heart",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Oriolus",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": [],
+      "classification_evidence": [
+        {
+          "authority": "HoYoverse official source",
+          "url": "https://www.hoyoverse.com/en-us/news/162178",
+          "evidence": "Official HoYoverse Version Luna IV announcement names Illuga as a new playable 4-star character."
+        }
+      ]
+    },
+    {
+      "canonical_key": "ineffa",
+      "name": "Ineffa",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000116",
+          "source_key": "ineffa",
+          "source_name": "Ineffa",
+          "record_path": "src/data/English/characters/ineffa.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Boom Boom Thunderwave",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Ineffa",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Vanilla Planifolia",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": [],
+      "classification_evidence": [
+        {
+          "authority": "HoYoverse official source",
+          "url": "https://genshin.hoyoverse.com/en/news/detail/165909",
+          "evidence": "Official event-wish announcement lists Ineffa as a rate-up character."
+        }
+      ]
+    },
+    {
+      "canonical_key": "jahoda",
+      "name": "Jahoda",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000124",
+          "source_key": "jahoda",
+          "source_name": "Jahoda",
+          "record_path": "src/data/English/characters/jahoda.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Fragum",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Jahoda",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Windthreading Shadow",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": [],
+      "classification_evidence": [
+        {
+          "authority": "HoYoverse official source",
+          "url": "https://genshin.hoyoverse.com/en/news/detail/163629",
+          "evidence": "Official Luna VI event-wish notice lists Jahoda as a 4-star character."
+        }
+      ]
+    },
+    {
+      "canonical_key": "jean",
+      "name": "Jean",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000003",
+          "source_key": "jean",
+          "source_name": "Jean",
+          "record_path": "src/data/English/characters/jean.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Dandelion Knight",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Jean",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Leo Minor",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "kachina",
+      "name": "Kachina",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000100",
+          "source_key": "kachina",
+          "source_name": "Kachina",
+          "record_path": "src/data/English/characters/kachina.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Kachina",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Mottled Gold Yet Unsmelted",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Ochotona Princeps",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "kaedeharakazuha",
+      "name": "Kaedehara Kazuha",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000047",
+          "source_key": "kaedeharakazuha",
+          "source_name": "Kaedehara Kazuha",
+          "record_path": "src/data/English/characters/kaedeharakazuha.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Acer Palmatum",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Kaedehara Kazuha",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Scarlet Leaves Pursue Wild Waves",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "kaeya",
+      "name": "Kaeya",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000015",
+          "source_key": "kaeya",
+          "source_name": "Kaeya",
+          "record_path": "src/data/English/characters/kaeya.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Frostwind Swordsman",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Kaeya",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Pavo Ocellus",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "kamisatoayaka",
+      "name": "Kamisato Ayaka",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000002",
+          "source_key": "kamisatoayaka",
+          "source_name": "Kamisato Ayaka",
+          "record_path": "src/data/English/characters/kamisatoayaka.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Frostflake Heron",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Grus Nivis",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Kamisato Ayaka",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "kamisatoayato",
+      "name": "Kamisato Ayato",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000066",
+          "source_key": "kamisatoayato",
+          "source_name": "Kamisato Ayato",
+          "record_path": "src/data/English/characters/kamisatoayato.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Cypressus Custos",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Kamisato Ayato",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Pillar of Fortitude",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "kaveh",
+      "name": "Kaveh",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000081",
+          "source_key": "kaveh",
+          "source_name": "Kaveh",
+          "record_path": "src/data/English/characters/kaveh.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Empyrean Reflection",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Kaveh",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Paradisaea",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "keqing",
+      "name": "Keqing",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000042",
+          "source_key": "keqing",
+          "source_name": "Keqing",
+          "record_path": "src/data/English/characters/keqing.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Driving Thunder",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Keqing",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Trulla Cementarii",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": [],
+      "classification_evidence": [
+        {
+          "authority": "HoYoverse official source",
+          "url": "https://genshin.hoyoverse.com/en/news/detail/8498",
+          "evidence": "Official Version 1.3 event-wish notice lists Keqing as a rate-up character."
+        }
+      ]
+    },
+    {
+      "canonical_key": "kinich",
+      "name": "Kinich",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000101",
+          "source_key": "kinich",
+          "source_name": "Kinich",
+          "record_path": "src/data/English/characters/kinich.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Chimaera Alebriius",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Kinich",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Turnfire Hunt",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "kirara",
+      "name": "Kirara",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000061",
+          "source_key": "kirara",
+          "source_name": "Kirara",
+          "record_path": "src/data/English/characters/kirara.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Arcella",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Cat Upon the Eaves",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Kirara",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "klee",
+      "name": "Klee",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000029",
+          "source_key": "klee",
+          "source_name": "Klee",
+          "record_path": "src/data/English/characters/klee.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Fleeing Sunlight",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Klee",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Trifolium",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "kujousara",
+      "name": "Kujou Sara",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000056",
+          "source_key": "kujousara",
+          "source_name": "Kujou Sara",
+          "record_path": "src/data/English/characters/kujousara.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Crowfeather Kaburaya",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Flabellum",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Kujou Sara",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "kukishinobu",
+      "name": "Kuki Shinobu",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000065",
+          "source_key": "kukishinobu",
+          "source_name": "Kuki Shinobu",
+          "record_path": "src/data/English/characters/kukishinobu.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Kuki Shinobu",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Mender of Tribulations",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Tribulatio Demptio",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "lanyan",
+      "name": "Lan Yan",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000108",
+          "source_key": "lanyan",
+          "source_name": "Lan Yan",
+          "record_path": "src/data/English/characters/lanyan.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Hirundo Lazuli",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Lan Yan",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Spring Woven From Jade",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": [],
+      "classification_evidence": [
+        {
+          "authority": "HoYoverse official source",
+          "url": "https://genshin.hoyoverse.com/m/es/news/detail/127791",
+          "evidence": "Official Version 5.3 update details introduce Lan Yan as a 4-star character."
+        }
+      ]
+    },
+    {
+      "canonical_key": "lauma",
+      "name": "Lauma",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000119",
+          "source_key": "lauma",
+          "source_name": "Lauma",
+          "record_path": "src/data/English/characters/lauma.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Cerva Nivea",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Evermoon's Sacrament Song",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Lauma",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": [],
+      "classification_evidence": [
+        {
+          "authority": "HoYoverse official source",
+          "url": "https://genshin.hoyoverse.com/en/news/detail/159349",
+          "evidence": "Official Luna I update details introduce Lauma as a 5-star character."
+        }
+      ]
+    },
+    {
+      "canonical_key": "layla",
+      "name": "Layla",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000074",
+          "source_key": "layla",
+          "source_name": "Layla",
+          "record_path": "src/data/English/characters/layla.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Fantastical Evening Star",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Layla",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Luscinia",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "linnea",
+      "name": "Linnea",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000130",
+          "source_key": "linnea",
+          "source_name": "Linnea",
+          "record_path": "src/data/English/characters/linnea.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Alcyon",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Augur of Wonders",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Linnea",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": [],
+      "classification_evidence": [
+        {
+          "authority": "HoYoverse official source",
+          "url": "https://genshin.hoyoverse.com/en/news/detail/163454",
+          "evidence": "Official Luna VI update details introduce Linnea as a 5-star character."
+        }
+      ]
+    },
+    {
+      "canonical_key": "lisa",
+      "name": "Lisa",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000006",
+          "source_key": "lisa",
+          "source_name": "Lisa",
+          "record_path": "src/data/English/characters/lisa.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Lisa",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Tempus Fugit",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Witch of Purple Rose",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "lohen",
+      "name": "Lohen",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000129",
+          "source_key": "lohen",
+          "source_name": "Lohen",
+          "record_path": "src/data/English/characters/lohen.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Lepus Miles",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Lohen",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Sharpened Arrowhead",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": [],
+      "classification_evidence": [
+        {
+          "authority": "HoYoverse official source",
+          "url": "https://genshin.hoyoverse.com/m/en/news/detail/164591",
+          "evidence": "Official Luna VII event-wish notice lists Lohen as the limited 5-star character."
+        }
+      ]
+    },
+    {
+      "canonical_key": "lynette",
+      "name": "Lynette",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000083",
+          "source_key": "lynette",
+          "source_name": "Lynette",
+          "record_path": "src/data/English/characters/lynette.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Elegance in the Shadows",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Felis Alba",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Lynette",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "lyney",
+      "name": "Lyney",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000084",
+          "source_key": "lyney",
+          "source_name": "Lyney",
+          "record_path": "src/data/English/characters/lyney.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Felis Fuscus",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Lyney",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Spectacle of Phantasmagoria",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "mavuika",
+      "name": "Mavuika",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000106",
+          "source_key": "mavuika",
+          "source_name": "Mavuika",
+          "record_path": "src/data/English/characters/mavuika.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Mavuika",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Night-Igniting Flame",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Sol Invictus",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "mika",
+      "name": "Mika",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000080",
+          "source_key": "mika",
+          "source_name": "Mika",
+          "record_path": "src/data/English/characters/mika.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Coordinates of Clear Frost",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Mika",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Palumbus",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "miliastra-avatar",
+      "name": "Miliastra Avatar",
+      "classification": "mode_avatar",
+      "source_mappings": [],
+      "aliases": [
+        {
+          "name": "Manekin",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Manekina",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": [
+        {
+          "variant_key": "manekin",
+          "name": "Manekin",
+          "source_mapping": {
+            "source": "genshin-db",
+            "source_version": "5.2.14",
+            "source_id": "10000117",
+            "source_key": "manekin",
+            "source_name": "Manekin",
+            "record_path": "src/data/English/characters/manekin.json"
+          }
+        },
+        {
+          "variant_key": "manekina",
+          "name": "Manekina",
+          "source_mapping": {
+            "source": "genshin-db",
+            "source_version": "5.2.14",
+            "source_id": "10000118",
+            "source_key": "manekina",
+            "source_name": "Manekina",
+            "record_path": "src/data/English/characters/manekina.json"
+          }
+        }
+      ],
+      "classification_evidence": [
+        {
+          "authority": "HoYoverse official Miliastra Wonderland event notice",
+          "url": "https://genshin.hoyoverse.com/ja/news/detail/160456",
+          "evidence": "Describes awakening the Miliastra Wonderland doll/avatar; genshin-db provides Manekin and Manekina source forms."
+        }
+      ]
+    },
+    {
+      "canonical_key": "mona",
+      "name": "Mona",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000041",
+          "source_key": "mona",
+          "source_name": "Mona",
+          "record_path": "src/data/English/characters/mona.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Astral Reflection",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Astrolabos",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Mona",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "mualani",
+      "name": "Mualani",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000102",
+          "source_key": "mualani",
+          "source_name": "Mualani",
+          "record_path": "src/data/English/characters/mualani.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Mualani",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Phoca Neomonachus",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Splish-Splash Wavechaser",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "nahida",
+      "name": "Nahida",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000073",
+          "source_key": "nahida",
+          "source_name": "Nahida",
+          "record_path": "src/data/English/characters/nahida.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Nahida",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Physic of Purity",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Sapientia Oromasdis",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "navia",
+      "name": "Navia",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000091",
+          "source_key": "navia",
+          "source_name": "Navia",
+          "record_path": "src/data/English/characters/navia.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Helm of the Radiant Rose",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Navia",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Rosa Multiflora",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "nefer",
+      "name": "Nefer",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000122",
+          "source_key": "nefer",
+          "source_name": "Nefer",
+          "record_path": "src/data/English/characters/nefer.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Ludus Latrunculorum",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Nefer",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Secret Beneath the Sands",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": [],
+      "classification_evidence": [
+        {
+          "authority": "HoYoverse official source",
+          "url": "https://genshin.hoyoverse.com/en/news/detail/160338",
+          "evidence": "Official Luna II event-wish notice lists Nefer as a limited 5-star character."
+        }
+      ]
+    },
+    {
+      "canonical_key": "neuvillette",
+      "name": "Neuvillette",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000087",
+          "source_key": "neuvillette",
+          "source_name": "Neuvillette",
+          "record_path": "src/data/English/characters/neuvillette.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Neuvillette",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Ordainer of Inexorable Judgment",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "nicole",
+      "name": "Nicole",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000131",
+          "source_key": "nicole",
+          "source_name": "Nicole",
+          "record_path": "src/data/English/characters/nicole.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Clamor Within",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Nicole",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Reliquiarium",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": [],
+      "classification_evidence": [
+        {
+          "authority": "HoYoverse official source",
+          "url": "https://genshin.hoyoverse.com/en/news/detail/163896",
+          "evidence": "Official notice announces Nicole’s event wish and rate-up."
+        }
+      ]
+    },
+    {
+      "canonical_key": "nilou",
+      "name": "Nilou",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000070",
+          "source_key": "nilou",
+          "source_name": "Nilou",
+          "record_path": "src/data/English/characters/nilou.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Dance of Lotuslight",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Lotos Somno",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Nilou",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "ningguang",
+      "name": "Ningguang",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000027",
+          "source_key": "ningguang",
+          "source_name": "Ningguang",
+          "record_path": "src/data/English/characters/ningguang.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Eclipsing Star",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Ningguang",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Opus Aequilibrium",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "noelle",
+      "name": "Noelle",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000034",
+          "source_key": "noelle",
+          "source_name": "Noelle",
+          "record_path": "src/data/English/characters/noelle.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Chivalric Blossom",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Noelle",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Parma Cordis",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "odette",
+      "name": "Odette",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000150",
+          "source_key": "odette",
+          "source_name": "Odette",
+          "record_path": "src/data/English/characters/odette.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Cygnus Olor",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Odette",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Swirling Snow",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": [],
+      "classification_evidence": [
+        {
+          "authority": "HoYoverse official source",
+          "url": "https://genshin.hoyoverse.com/zh-cn/news/detail/165610",
+          "evidence": "Official Version 7.0 event-wish notice lists Odette as a limited 5-star character."
+        }
+      ]
+    },
+    {
+      "canonical_key": "ororon",
+      "name": "Ororon",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000105",
+          "source_key": "ororon",
+          "source_name": "Ororon",
+          "record_path": "src/data/English/characters/ororon.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Ororon",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Shadow of the Night-Wind",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Vampyrum Spectrum",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "prune",
+      "name": "Prune",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000132",
+          "source_key": "prune",
+          "source_name": "Prune",
+          "record_path": "src/data/English/characters/prune.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Childlike Dreams Cherished",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Prune",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Turris Venefica",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": [],
+      "classification_evidence": [
+        {
+          "authority": "HoYoverse official source",
+          "url": "https://genshin.hoyoverse.com/es-es/news/detail/164019",
+          "evidence": "Official Luna VII event-wish notice lists Prune as a 4-star character."
+        }
+      ]
+    },
+    {
+      "canonical_key": "qiqi",
+      "name": "Qiqi",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000035",
+          "source_key": "qiqi",
+          "source_name": "Qiqi",
+          "record_path": "src/data/English/characters/qiqi.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Icy Resurrection",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Pristina Nola",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Qiqi",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "raidenshogun",
+      "name": "Raiden Shogun",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000052",
+          "source_key": "raidenshogun",
+          "source_name": "Raiden Shogun",
+          "record_path": "src/data/English/characters/raidenshogun.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Imperatrix Umbrosa",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Plane of Euthymia",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Raiden Shogun",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "razor",
+      "name": "Razor",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000020",
+          "source_key": "razor",
+          "source_name": "Razor",
+          "record_path": "src/data/English/characters/razor.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Lupus Minor",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Razor",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Wolf Boy",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": [],
+      "classification_evidence": [
+        {
+          "authority": "HoYoverse official source",
+          "url": "https://genshin.hoyoverse.com/en/news/detail/103763",
+          "evidence": "Official Version 1.1 update notes describe Razor’s party and skill behavior, confirming an existing playable character."
+        }
+      ]
+    },
+    {
+      "canonical_key": "rosaria",
+      "name": "Rosaria",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000045",
+          "source_key": "rosaria",
+          "source_name": "Rosaria",
+          "record_path": "src/data/English/characters/rosaria.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Rosaria",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Spinea Corona",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Thorny Benevolence",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "sandrone",
+      "name": "Sandrone",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000133",
+          "source_key": "sandrone",
+          "source_name": "Sandrone",
+          "record_path": "src/data/English/characters/sandrone.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Mirrored Analysis",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Narcissorolegium",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Sandrone",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": [],
+      "classification_evidence": [
+        {
+          "authority": "HoYoverse official source",
+          "url": "https://ys.mihoyo.com/main/news/detail/165029",
+          "evidence": "Official event-wish notice lists Sandrone as the limited 5-star character."
+        }
+      ]
+    },
+    {
+      "canonical_key": "sangonomiyakokomi",
+      "name": "Sangonomiya Kokomi",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000054",
+          "source_key": "sangonomiyakokomi",
+          "source_name": "Sangonomiya Kokomi",
+          "record_path": "src/data/English/characters/sangonomiyakokomi.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Dracaena Somnolenta",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Pearl of Wisdom",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Sangonomiya Kokomi",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "sayu",
+      "name": "Sayu",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000053",
+          "source_key": "sayu",
+          "source_name": "Sayu",
+          "record_path": "src/data/English/characters/sayu.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Mujina Ninja",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Nyctereutes Minor",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Sayu",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "sethos",
+      "name": "Sethos",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000097",
+          "source_key": "sethos",
+          "source_name": "Sethos",
+          "record_path": "src/data/English/characters/sethos.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Basileos Delta",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Sethos",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Wisdom's Measure",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "shenhe",
+      "name": "Shenhe",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000063",
+          "source_key": "shenhe",
+          "source_name": "Shenhe",
+          "record_path": "src/data/English/characters/shenhe.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Crista Doloris",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Lonesome Transcendence",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Shenhe",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "shikanoinheizou",
+      "name": "Shikanoin Heizou",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000059",
+          "source_key": "shikanoinheizou",
+          "source_name": "Shikanoin Heizou",
+          "record_path": "src/data/English/characters/shikanoinheizou.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Analytical Harmony",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Cervus Minor",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Shikanoin Heizou",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "sigewinne",
+      "name": "Sigewinne",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000095",
+          "source_key": "sigewinne",
+          "source_name": "Sigewinne",
+          "record_path": "src/data/English/characters/sigewinne.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Nereides",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Sigewinne",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Wondrous Dragonheir",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "skirk",
+      "name": "Skirk",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000114",
+          "source_key": "skirk",
+          "source_name": "Skirk",
+          "record_path": "src/data/English/characters/skirk.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Crystallina",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Skirk",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Void Star",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": [],
+      "classification_evidence": [
+        {
+          "authority": "HoYoverse official source",
+          "url": "https://genshin.hoyoverse.com/en/news/detail/166634",
+          "evidence": "Official Version 7.1 event-wish notice lists Skirk as the limited 5-star character."
+        }
+      ]
+    },
+    {
+      "canonical_key": "sucrose",
+      "name": "Sucrose",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000043",
+          "source_key": "sucrose",
+          "source_name": "Sucrose",
+          "record_path": "src/data/English/characters/sucrose.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Ampulla",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Harmless Sweetie",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Sucrose",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "tartaglia",
+      "name": "Tartaglia",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000033",
+          "source_key": "tartaglia",
+          "source_name": "Tartaglia",
+          "record_path": "src/data/English/characters/tartaglia.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Childe",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Monoceros Caeli",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Tartaglia",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": [],
+      "classification_evidence": [
+        {
+          "authority": "HoYoverse official source",
+          "url": "https://genshin.hoyoverse.com/en/news/detail/103763",
+          "evidence": "Official Version 1.1 update details introduce Tartaglia and his event wish."
+        }
+      ]
+    },
+    {
+      "canonical_key": "thoma",
+      "name": "Thoma",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000050",
+          "source_key": "thoma",
+          "source_name": "Thoma",
+          "record_path": "src/data/English/characters/thoma.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Protector From Afar",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Rubeum Scutum",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Thoma",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "tighnari",
+      "name": "Tighnari",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000069",
+          "source_key": "tighnari",
+          "source_name": "Tighnari",
+          "record_path": "src/data/English/characters/tighnari.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Tighnari",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Verdant Strider",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Vulpes Zerda",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "traveler",
+      "name": "Traveler",
+      "classification": "combat_playable",
+      "source_mappings": [],
+      "aliases": [
+        {
+          "name": "Aether",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Lumine",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Viator",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Viatrix",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": [
+        {
+          "variant_key": "aether",
+          "name": "Aether",
+          "source_mapping": {
+            "source": "genshin-db",
+            "source_version": "5.2.14",
+            "source_id": "10000005",
+            "source_key": "aether",
+            "source_name": "Aether",
+            "record_path": "src/data/English/characters/aether.json"
+          }
+        },
+        {
+          "variant_key": "lumine",
+          "name": "Lumine",
+          "source_mapping": {
+            "source": "genshin-db",
+            "source_version": "5.2.14",
+            "source_id": "10000007",
+            "source_key": "lumine",
+            "source_name": "Lumine",
+            "record_path": "src/data/English/characters/lumine.json"
+          }
+        }
+      ],
+      "element_handling": {
+        "mode": "adaptive",
+        "source_value_in_both_source_forms": "None",
+        "application_value": "Adaptive",
+        "never_assign_fixed_element": true,
+        "evidence": "https://genshin.hoyoverse.com/en/news/detail/112690",
+        "evidence_note": "Official update details describe the Traveler resonating with the regional element; later official 7.0 notices describe Cryo resonance."
+      },
+      "classification_evidence": [
+        {
+          "authority": "HoYoverse official source",
+          "url": "https://genshin.hoyoverse.com/en/news/detail/112690",
+          "evidence": "Official update details describe Traveler resonating with a regional element and using the corresponding elemental kit."
+        }
+      ]
+    },
+    {
+      "canonical_key": "varesa",
+      "name": "Varesa",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000111",
+          "source_key": "varesa",
+          "source_name": "Varesa",
+          "record_path": "src/data/English/characters/varesa.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Mascara Luctatori",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Strength in Serenity",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Varesa",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": [],
+      "classification_evidence": [
+        {
+          "authority": "HoYoverse official source",
+          "url": "https://genshin.hoyoverse.com/en/news/detail/155172",
+          "evidence": "Official Version 5.5 update details introduce Varesa as a 5-star character."
+        }
+      ]
+    },
+    {
+      "canonical_key": "varka",
+      "name": "Varka",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000128",
+          "source_key": "varka",
+          "source_name": "Varka",
+          "record_path": "src/data/English/characters/varka.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Knight of Boreas",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Lupus Majoris",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Varka",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": [],
+      "classification_evidence": [
+        {
+          "authority": "HoYoverse official source",
+          "url": "https://genshin.hoyoverse.com/en/news/detail/162721",
+          "evidence": "Official Luna V event-wish notice lists Varka as the limited 5-star character."
+        }
+      ]
+    },
+    {
+      "canonical_key": "venti",
+      "name": "Venti",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000022",
+          "source_key": "venti",
+          "source_name": "Venti",
+          "record_path": "src/data/English/characters/venti.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Carmen Dei",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Venti",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Windborne Bard",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "vesna",
+      "name": "Vesna",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000143",
+          "source_key": "vesna",
+          "source_name": "Vesna",
+          "record_path": "src/data/English/characters/vesna.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Amentum Vernum",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Snowy Banquet's Sharp Blade",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Vesna",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": [],
+      "classification_evidence": [
+        {
+          "authority": "HoYoverse official source",
+          "url": "https://genshin.hoyoverse.com/m/ja/news/detail/166228",
+          "evidence": "Official Version 7.1 event-wish notice lists Vesna as a limited 5-star character."
+        }
+      ]
+    },
+    {
+      "canonical_key": "vodyanitsa",
+      "name": "Vodyanitsa",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000140",
+          "source_key": "vodyanitsa",
+          "source_name": "Vodyanitsa",
+          "record_path": "src/data/English/characters/vodyanitsa.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Lingering Siren-Song",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Piscicula Aurea",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Vodyanitsa",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": [],
+      "classification_evidence": [
+        {
+          "authority": "HoYoverse official source",
+          "url": "https://ys.mihoyo.com/main/news/detail/166249",
+          "evidence": "Official event-wish notice lists Vodyanitsa as a limited 5-star character."
+        }
+      ]
+    },
+    {
+      "canonical_key": "wanderer",
+      "name": "Wanderer",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000075",
+          "source_key": "wanderer",
+          "source_name": "Wanderer",
+          "record_path": "src/data/English/characters/wanderer.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Eons Adrift",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Peregrinus",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Wanderer",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "wriothesley",
+      "name": "Wriothesley",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000086",
+          "source_key": "wriothesley",
+          "source_name": "Wriothesley",
+          "record_path": "src/data/English/characters/wriothesley.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Cerberus",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Emissary of Solitary Iniquity",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Wriothesley",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "xiangling",
+      "name": "Xiangling",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000023",
+          "source_key": "xiangling",
+          "source_name": "Xiangling",
+          "record_path": "src/data/English/characters/xiangling.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Exquisite Delicacy",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Trulla",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Xiangling",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "xianyun",
+      "name": "Xianyun",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000093",
+          "source_key": "xianyun",
+          "source_name": "Xianyun",
+          "record_path": "src/data/English/characters/xianyun.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Grus Serena",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Passerine Herald",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Xianyun",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "xiao",
+      "name": "Xiao",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000026",
+          "source_key": "xiao",
+          "source_name": "Xiao",
+          "record_path": "src/data/English/characters/xiao.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Alatus Nemeseos",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Vigilant Yaksha",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Xiao",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "xilonen",
+      "name": "Xilonen",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000103",
+          "source_key": "xilonen",
+          "source_name": "Xilonen",
+          "record_path": "src/data/English/characters/xilonen.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Ardent Flames Forge the Soul",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Panthera Ocelota",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Xilonen",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "xingqiu",
+      "name": "Xingqiu",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000025",
+          "source_key": "xingqiu",
+          "source_name": "Xingqiu",
+          "record_path": "src/data/English/characters/xingqiu.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Fabulae Textile",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Juvenile Galant",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Xingqiu",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "xinyan",
+      "name": "Xinyan",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000044",
+          "source_key": "xinyan",
+          "source_name": "Xinyan",
+          "record_path": "src/data/English/characters/xinyan.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Blazing Riff",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Fila Ignium",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Xinyan",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "yaemiko",
+      "name": "Yae Miko",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000058",
+          "source_key": "yaemiko",
+          "source_name": "Yae Miko",
+          "record_path": "src/data/English/characters/yaemiko.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Astute Amusement",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Divina Vulpes",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Yae Miko",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "yanfei",
+      "name": "Yanfei",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000048",
+          "source_key": "yanfei",
+          "source_name": "Yanfei",
+          "record_path": "src/data/English/characters/yanfei.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Bestia Iustitia",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Wise Innocence",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Yanfei",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "yaoyao",
+      "name": "Yaoyao",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000077",
+          "source_key": "yaoyao",
+          "source_name": "Yaoyao",
+          "record_path": "src/data/English/characters/yaoyao.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Burgeoning Grace",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Osmanthus",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Yaoyao",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "yelan",
+      "name": "Yelan",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000060",
+          "source_key": "yelan",
+          "source_name": "Yelan",
+          "record_path": "src/data/English/characters/yelan.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Umbrabilis Orchis",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Valley Orchid",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Yelan",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "yoimiya",
+      "name": "Yoimiya",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000049",
+          "source_key": "yoimiya",
+          "source_name": "Yoimiya",
+          "record_path": "src/data/English/characters/yoimiya.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Carassius Auratus",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Frolicking Flames",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Yoimiya",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "yumemizukimizuki",
+      "name": "Yumemizuki Mizuki",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000109",
+          "source_key": "yumemizukimizuki",
+          "source_name": "Yumemizuki Mizuki",
+          "record_path": "src/data/English/characters/yumemizukimizuki.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Embrace of Enchanting Dreams",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Tapirus Somniator",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Yumemizuki Mizuki",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": [],
+      "classification_evidence": [
+        {
+          "authority": "HoYoverse official source",
+          "url": "https://genshin.hoyoverse.com/m/en/news/detail/129628",
+          "evidence": "Official showcase announces Mizuki’s rate-up event wish and later standard-wish availability."
+        }
+      ]
+    },
+    {
+      "canonical_key": "yunjin",
+      "name": "Yun Jin",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000064",
+          "source_key": "yunjin",
+          "source_name": "Yun Jin",
+          "record_path": "src/data/English/characters/yunjin.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Opera Grandis",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Stage Lucida",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Yun Jin",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "zhongli",
+      "name": "Zhongli",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000030",
+          "source_key": "zhongli",
+          "source_name": "Zhongli",
+          "record_path": "src/data/English/characters/zhongli.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Lapis Dei",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Vago Mundo",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Zhongli",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": []
+    },
+    {
+      "canonical_key": "zibai",
+      "name": "Zibai",
+      "classification": "combat_playable",
+      "source_mappings": [
+        {
+          "source": "genshin-db",
+          "source_version": "5.2.14",
+          "source_id": "10000126",
+          "source_key": "zibai",
+          "source_name": "Zibai",
+          "record_path": "src/data/English/characters/zibai.json"
+        }
+      ],
+      "aliases": [
+        {
+          "name": "Equa Alba",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "White Horse's Fleeting Spring",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        },
+        {
+          "name": "Zibai",
+          "source": "genshin-db",
+          "source_version": "5.2.14"
+        }
+      ],
+      "variants": [],
+      "classification_evidence": [
+        {
+          "authority": "HoYoverse official source",
+          "url": "https://www.hoyoverse.com/en-us/news/162178",
+          "evidence": "Official HoYoverse announcement identifies Zibai as a new playable character."
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "External source IDs are provenance/mapping keys, never PostgreSQL primary keys.",
+    "Traveler is one combat entity with Aether and Lumine selectable variants and adaptive elemental attunement.",
+    "Miliastra Avatar is a separate mode-specific playable entity with Manekin and Manekina variants; it is not an ordinary combat-roster entry.",
+    "Supplementary art, profile, build, or tier data is intentionally absent from this manifest."
+  ],
+  "coverage_summary": {
+    "combat_playable_canonical_entities": 121,
+    "mode_avatar_canonical_entities": 1,
+    "confirmed_canonical_entities_total": 122,
+    "confirmed_source_records_in_manifest": 124,
+    "candidate_source_records": 0
+  },
+  "review_notes": [
+    "The source index establishes that a record exists in this snapshot; it does not by itself prove playable status. Playable classification uses official release/event-wish evidence.",
+    "Sandrone was promoted from candidate to confirmed combat playable after the official July 1, 2026 event-wish notice named her as the limited 5-star rate-up character.",
+    "This is a versioned point-in-time snapshot, not a claim that genshin-db is authoritative or exhaustive. Re-review release evidence whenever the source snapshot changes.",
+    "The source set does not provide a comprehensive NPC registry; NPCs not represented by an indexed character record are intentionally not enumerated.",
+    "Punctuation-only placeholders exposed by the source alias index (including “——” and “???”) are omitted as aliases; they are not character names or searchable aliases."
+  ],
+  "source_field_policy": {
+    "policy_version": 1,
+    "managed_fields": [
+      {
+        "catalog_field": "rarity",
+        "source_field": "rarity",
+        "source_record_path": "src/data/English/characters/<source_key>.json",
+        "database_column": "characters.rarity",
+        "missing_value": "Do not invent; report unmatched and defer insertion because the database column is required."
+      },
+      {
+        "catalog_field": "element",
+        "source_field": "elementText",
+        "source_record_path": "src/data/English/characters/<source_key>.json",
+        "database_column": "characters.element",
+        "missing_value": "Preserve as missing in the manifest; do not invent. Existing database column is NOT NULL, so defer insertion pending a reviewed normalization.",
+        "normalization": "Traveler elementText=None maps to the semantic value Adaptive, never a fixed element. Miliastra Avatar retains source value None."
+      },
+      {
+        "catalog_field": "weapon_type",
+        "source_field": "weaponText",
+        "source_record_path": "src/data/English/characters/<source_key>.json",
+        "database_column": "characters.weapon_type",
+        "missing_value": "Do not invent; report unmatched and defer insertion because the database column is required."
+      }
+    ],
+    "not_managed": [
+      "description",
+      "release_order",
+      "database id",
+      "profile data",
+      "tiers",
+      "builds",
+      "artwork"
+    ],
+    "source_record_counts_checked": "At audit time all source records referenced by the confirmed and candidate manifests contained rarity, elementText, and weaponText. Revalidate each field on every snapshot update."
+  },
+  "release_order_policy": {
+    "strategy": "Append after the current maximum release_order in the same serialized transaction; allocate one value per inserted character row.",
+    "renumber_existing": false,
+    "existing_seed_values_verified": "sql/02_seed_data.sql uses 87 unique values from 1 through 87.",
+    "database_constraint": "characters.release_order is NOT NULL UNIQUE.",
+    "concurrency_requirement": "Serialize catalog writers or take an explicit table lock before reading MAX(release_order)."
+  }
+}

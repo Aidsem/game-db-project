@@ -1,0 +1,21 @@
+{
+  "manifest_version": 1,
+  "catalog_snapshot": {
+    "retrieved_on": "2026-10-14",
+    "primary_source": "genshin-db",
+    "source_version": "5.2.14",
+    "source_repository": "https://github.com/theBowja/genshin-db",
+    "source_index": "src/data/index/English/characters.json",
+    "classification_basis": "Combat playable roster is reviewed against official playable-character and event-wish evidence; genshin-db presence alone is not sufficient. Miliastra Wonderland avatars are separately scoped.",
+    "source_package_version": "5.2.14",
+    "source_data_release": "Genshin Impact v7.1 JSON data",
+    "source_index_entries": 124,
+    "included_source_records": 124,
+    "candidate_source_records": 0
+  },
+  "candidates": [],
+  "scope_notes": [
+    "This is a review queue, not an import manifest. No uncertain, unreleased, or NPC entries were found among the 124 source index records after cross-checking available official release evidence.",
+    "The genshin-db character index is not an exhaustive NPC or unreleased-character registry; NPCs absent from that index are not inferred or fabricated here."
+  ]
+}

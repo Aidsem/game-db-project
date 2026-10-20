@@ -28,6 +28,7 @@ from flask import Flask, request, jsonify, send_file, send_from_directory
 from flask_sqlalchemy import SQLAlchemy
 from flask_cors import CORS
 from sqlalchemy.exc import IntegrityError, SQLAlchemyError
+from sqlalchemy import bindparam, inspect as sqlalchemy_inspect
 
 import matplotlib
 matplotlib.use("Agg")  # non-interactive backend — required on a server (no display)
@@ -351,6 +352,67 @@ def _figure_to_png_bytes(fig):
 # 5. ROUTES — characters
 # =======================================================================
 
+def _catalog_metadata(character_ids):
+    """Load optional reviewed catalog labels without making them a roster dependency."""
+    metadata = {
+        character_id: {"catalog_classification": None, "variants": [], "aliases": []}
+        for character_id in character_ids
+    }
+    if not character_ids:
+        return metadata
+    required_tables = {
+        "character_catalog_classifications", "character_variants", "character_aliases"
+    }
+    try:
+        if not required_tables.issubset(set(sqlalchemy_inspect(db.engine).get_table_names())):
+            return metadata
+        ids_param = bindparam("ids", expanding=True)
+        result = db.session.execute(
+            db.text("SELECT character_id, classification FROM character_catalog_classifications WHERE character_id IN :ids").bindparams(ids_param),
+            {"ids": list(character_ids)},
+        )
+        for row in result.mappings():
+            metadata[row["character_id"]]["catalog_classification"] = row["classification"]
+        result = db.session.execute(
+            db.text("SELECT character_id, variant_key, display_name FROM character_variants WHERE character_id IN :ids ORDER BY character_id, variant_key").bindparams(ids_param),
+            {"ids": list(character_ids)},
+        )
+        for row in result.mappings():
+            metadata[row["character_id"]]["variants"].append({
+                "key": row["variant_key"], "name": row["display_name"],
+                "character_id": row["character_id"]
+            })
+        result = db.session.execute(
+            db.text("SELECT character_id, alias FROM character_aliases WHERE character_id IN :ids ORDER BY character_id, alias").bindparams(ids_param),
+            {"ids": list(character_ids)},
+        )
+        for row in result.mappings():
+            metadata[row["character_id"]]["aliases"].append(row["alias"])
+    except SQLAlchemyError:
+        # The base characters table remains usable if the additive catalog metadata
+        # migration is not installed or is temporarily unavailable.
+        db.session.rollback()
+        return {
+            character_id: {"catalog_classification": None, "variants": [], "aliases": []}
+            for character_id in character_ids
+        }
+    return metadata
+
+
+def _serialize_character(character, include_relations=False, metadata=None):
+    data = character.to_dict(include_relations=include_relations)
+    catalog = (metadata or {}).get(character.id, {})
+    classification = catalog.get("catalog_classification")
+    data.update({
+        "catalog_classification": classification,
+        "mode_label": "Miliastra Wonderland avatar" if classification == "mode_avatar" else None,
+        "variants": catalog.get("variants", []),
+        "aliases": catalog.get("aliases", []),
+        "element_behavior": "adaptive" if character.element == "Adaptive" else None,
+    })
+    return data
+
+
 @app.route("/api/characters", methods=["GET"])
 def list_characters():
     query = Character.query
@@ -362,15 +424,23 @@ def list_characters():
     if weapon_type:
         query = query.filter(Character.weapon_type.ilike(weapon_type))
     if rarity:
-        query = query.filter(Character.rarity == int(rarity))
+        try:
+            rarity_value = int(rarity)
+        except ValueError:
+            return jsonify({"error": "rarity must be an integer from 1 to 5"}), 400
+        if rarity_value not in range(1, 6):
+            return jsonify({"error": "rarity must be an integer from 1 to 5"}), 400
+        query = query.filter(Character.rarity == rarity_value)
     characters = query.order_by(Character.release_order).all()
-    return jsonify([c.to_dict() for c in characters])
+    metadata = _catalog_metadata([character.id for character in characters])
+    return jsonify([_serialize_character(character, metadata=metadata) for character in characters])
 
 
 @app.route("/api/characters/<int:character_id>", methods=["GET"])
 def get_character(character_id):
     character = Character.query.get_or_404(character_id)
-    return jsonify(character.to_dict(include_relations=True))
+    metadata = _catalog_metadata([character.id])
+    return jsonify(_serialize_character(character, include_relations=True, metadata=metadata))
 
 
 @app.route("/api/characters", methods=["POST"])

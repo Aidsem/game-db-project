@@ -1,4 +1,6 @@
 // app/static/js/views/characters.js
+import { characterVisual } from '../assets.js';
+import { characterFacets, filterCharacterCatalog } from '../characterCatalog.mjs';
 
 // DB Feature: Table characters with PK id, UNIQUE name and release_order, CHECK rarity 1 to 5
 let activeCharacters = [];
@@ -13,6 +15,8 @@ export async function render(root, ctx) {
       .char-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem; }
       .char-title-group { display: flex; align-items: center; gap: 0.75rem; }
       .char-card { border-left-width: 3px; border-left-style: solid; display: flex; flex-direction: column; gap: 0.5rem; }
+      .char-card-visual { aspect-ratio: 4 / 3; }
+      .char-profile-visual { aspect-ratio: 16 / 7; max-height: 250px; margin-bottom: 1rem; }
       .char-card-top { display: flex; justify-content: space-between; align-items: flex-start; }
       .char-card-name { font-weight: 600; font-size: 1.1rem; }
       .char-card-meta { display: flex; gap: 0.5rem; align-items: center; font-size: 0.85rem; color: var(--muted); }
@@ -65,29 +69,21 @@ export async function render(root, ctx) {
     class: 'field',
     onchange: (e) => { state.element = e.target.value; applyFiltersAndRender(); }
   },
-    ui.el('option', { value: '' }, 'All Elements'),
-    ...['Pyro', 'Hydro', 'Electro', 'Cryo', 'Dendro', 'Geo', 'Anemo'].map(e => 
-      ui.el('option', { value: e, selected: state.element === e }, e)
-    )
+    ui.el('option', { value: '' }, 'All Elements')
   );
 
   const weaponSelect = ui.el('select', {
     class: 'field',
     onchange: (e) => { state.weapon_type = e.target.value; applyFiltersAndRender(); }
   },
-    ui.el('option', { value: '' }, 'All Weapons'),
-    ...['Sword', 'Claymore', 'Polearm', 'Bow', 'Catalyst'].map(w => 
-      ui.el('option', { value: w, selected: state.weapon_type === w }, w)
-    )
+    ui.el('option', { value: '' }, 'All Weapons')
   );
 
   const raritySelect = ui.el('select', {
     class: 'field',
     onchange: (e) => { state.rarity = e.target.value; applyFiltersAndRender(); }
   },
-    ui.el('option', { value: '' }, 'All Rarities'),
-    ui.el('option', { value: '4', selected: state.rarity === '4' }, '4 Stars'),
-    ui.el('option', { value: '5', selected: state.rarity === '5' }, '5 Stars')
+    ui.el('option', { value: '' }, 'All Rarities')
   );
 
   const sortSelect = ui.el('select', {
@@ -133,6 +129,29 @@ export async function render(root, ctx) {
   root.appendChild(gridContainer);
 
   // Sync state to URL hash parameters
+  function refreshFacetOptions() {
+    const setOptions = (select, values, allLabel, selected, label) => {
+      select.replaceChildren(
+        ui.el('option', { value: '' }, allLabel),
+        ...values.map(value => ui.el('option', {
+          value,
+          selected: String(selected) === String(value)
+        }, label ? label(value) : value))
+      );
+      if (selected && !values.map(String).includes(String(selected))) {
+        select.value = '';
+      }
+    };
+    setOptions(elementSelect, characterFacets(activeCharacters, 'element'), 'All Elements', state.element,
+      value => value === 'None' ? 'Element unspecified' : value);
+    setOptions(weaponSelect, characterFacets(activeCharacters, 'weapon_type'), 'All Weapons', state.weapon_type);
+    setOptions(raritySelect, characterFacets(activeCharacters, 'rarity'), 'All Rarities', state.rarity,
+      value => `${value} Star${value === '1' ? '' : 's'}`);
+    if (!elementSelect.value) state.element = '';
+    if (!weaponSelect.value) state.weapon_type = '';
+    if (!raritySelect.value) state.rarity = '';
+  }
+
   function syncUrlParams() {
     const query = new URLSearchParams();
     if (state.q) query.set('q', state.q);
@@ -148,29 +167,7 @@ export async function render(root, ctx) {
   // Client-side filtering and rendering
   function applyFiltersAndRender() {
     syncUrlParams();
-    let list = activeCharacters.slice();
-
-    if (state.q) {
-      const query = state.q.toLowerCase();
-      list = list.filter(c => c.name.toLowerCase().includes(query));
-    }
-    if (state.element) {
-      list = list.filter(c => c.element === state.element);
-    }
-    if (state.weapon_type) {
-      list = list.filter(c => c.weapon_type === state.weapon_type);
-    }
-    if (state.rarity) {
-      list = list.filter(c => String(c.rarity) === String(state.rarity));
-    }
-
-    if (state.sort === 'name') {
-      list.sort((a, b) => a.name.localeCompare(b.name));
-    } else if (state.sort === 'rarity_desc') {
-      list.sort((a, b) => b.rarity - a.rarity || a.release_order - b.release_order);
-    } else {
-      list.sort((a, b) => a.release_order - b.release_order);
-    }
+    const list = filterCharacterCatalog(activeCharacters, state);
 
     countChip.textContent = String(list.length);
     gridContainer.innerHTML = '';
@@ -181,7 +178,8 @@ export async function render(root, ctx) {
     }
 
     list.forEach(char => {
-      const elCol = theme.elementColor(char.element);
+      const displayElement = char.element || 'Element unspecified';
+      const elCol = theme.elementColor(displayElement);
       const card = ui.el('div', {
         class: 'card clickable char-card',
         style: { borderLeftColor: elCol },
@@ -192,10 +190,12 @@ export async function render(root, ctx) {
           ui.el('div', { class: 'rarity' }, theme.rarityDiamonds(char.rarity))
         ),
         ui.el('div', { class: 'char-card-meta' },
-          ui.el('span', { class: 'chip swatch', style: { backgroundColor: elCol } }, char.element),
-          ui.el('span', {}, char.weapon_type)
+          ui.el('span', { class: 'chip swatch', style: { backgroundColor: elCol } }, displayElement),
+          char.weapon_type ? ui.el('span', {}, char.weapon_type) : null,
+          char.mode_label ? ui.el('span', { class: 'chip' }, char.mode_label) : null
         )
       );
+      card.prepend(characterVisual(ui, char, { className: 'char-card-visual' }));
       gridContainer.appendChild(card);
     });
   }
@@ -204,6 +204,7 @@ export async function render(root, ctx) {
   async function loadCharacters() {
     try {
       activeCharacters = await api.get('/characters');
+      refreshFacetOptions();
       applyFiltersAndRender();
 
       if (params.open) {
@@ -230,7 +231,8 @@ export async function render(root, ctx) {
         // 404 is expected if character lacks a JSONB profile
       }
 
-      const elCol = theme.elementColor(charData.element);
+      const displayElement = charData.element || 'Element unspecified';
+      const elCol = theme.elementColor(displayElement);
 
       // Render builds list
       const buildsList = ui.el('div', {});
@@ -321,11 +323,16 @@ export async function render(root, ctx) {
       }, 'Open in Damage Lab');
 
       const drawerBody = ui.el('div', {},
+        characterVisual(ui, charData, { className: 'char-profile-visual' }),
         ui.el('div', { style: { display: 'flex', gap: '0.5rem', alignItems: 'center', marginBottom: '0.75rem' } },
-          ui.el('span', { class: 'chip swatch', style: { backgroundColor: elCol } }, charData.element),
-          ui.el('span', { class: 'muted' }, charData.weapon_type),
+          ui.el('span', { class: 'chip swatch', style: { backgroundColor: elCol } }, displayElement),
+          charData.weapon_type ? ui.el('span', { class: 'muted' }, charData.weapon_type) : null,
+          charData.mode_label ? ui.el('span', { class: 'chip' }, charData.mode_label) : null,
           ui.el('span', { class: 'rarity' }, theme.rarityDiamonds(charData.rarity))
         ),
+        charData.variants?.length ? ui.el('div', { class: 'char-chip-group' },
+          ...charData.variants.map(variant => ui.el('span', { class: 'chip' }, variant.name))
+        ) : null,
         charData.description ? ui.el('p', { style: { fontSize: '0.9rem', marginBottom: '1rem' } }, charData.description) : null,
 
         ui.el('div', { class: 'char-drawer-section' },
@@ -382,8 +389,11 @@ export async function render(root, ctx) {
     );
 
     const elementSelectModal = ui.el('select', { class: 'field' },
-      ...['Pyro', 'Hydro', 'Electro', 'Cryo', 'Dendro', 'Geo', 'Anemo'].map(e =>
-        ui.el('option', { value: e, selected: isEdit ? character.element === e : e === 'Pyro' }, e)
+      ...['Pyro', 'Hydro', 'Electro', 'Cryo', 'Dendro', 'Geo', 'Anemo', 'Adaptive', 'None'].map(e =>
+        ui.el('option', {
+          value: e,
+          selected: isEdit ? character.element === e : e === 'Pyro'
+        }, e === 'None' ? 'Element unspecified' : e)
       )
     );
 

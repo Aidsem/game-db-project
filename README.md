@@ -45,17 +45,26 @@ Prerequisites: Python 3.10+, Git, VS Code, a free Neon account (or any PostgreSQ
 
 1. **Clone** and open in VS Code
    ```
-   git clone <REPO URL>
-   cd <REPO FOLDER>
+   git clone --branch feature/characters https://github.com/Aidsem/game-db-project.git
+   cd game-db-project
    code .
    ```
+   The project is currently on the `feature/characters` branch; the clone command selects it explicitly.
 2. **Virtual environment and packages** (VS Code terminal)
    ```
    python -m venv venv
-   venv\Scripts\activate          # macOS/Linux: source venv/bin/activate
+   ```
+   Activate it, then install dependencies:
+   ```
+   # Linux/macOS
+   source venv/bin/activate
+   # Windows PowerShell
+   venv\Scripts\Activate.ps1
+   # Windows Command Prompt
+   venv\Scripts\activate.bat
    pip install -r requirements.txt
    ```
-3. **Database:** create a Neon project, copy its connection string, then `copy .env.example .env` (macOS/Linux: `cp`) and paste it as `DATABASE_URL`. See [docs/cloud_deployment.md](docs/cloud_deployment.md).
+3. **Database:** create a Neon project (or use another PostgreSQL database), copy its connection string, then copy `.env.example` to `.env` and set `DATABASE_URL`. See [docs/cloud_deployment.md](docs/cloud_deployment.md). Keep `.env` private; it is ignored by Git.
 4. **Create tables and load data** (run in this order)
    ```
    python scripts/run_sql.py sql/01_schema_pg.sql sql/02_seed_data.sql sql/03_seed_extra.sql sql/04_advanced_pg.sql
@@ -66,6 +75,8 @@ Prerequisites: Python 3.10+, Git, VS Code, a free Neon account (or any PostgreSQ
    ```
    Open http://127.0.0.1:5000 (site) and http://127.0.0.1:5000/api/health (should say `"database": "connected"`).
 6. **Run the tests** (optional): `pip install -r requirements-dev.txt` then `pytest -q`
+
+The game-data image/effect enrichment is optional. Without the separate `genshin-db` data checkout, the app still runs but source-mapped fields may be unavailable. See [docs/game-data-integration.md](docs/game-data-integration.md) for configuration. The reviewed character-catalog sync is also optional and requires its separate source checkout and migration; it is not needed for the standard app setup.
 
 ## Project Structure
 ```
