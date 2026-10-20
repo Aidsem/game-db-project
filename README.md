@@ -1,4 +1,4 @@
-# Codex - Game Companion Database (DBMS PBL Project)
+# Genshin Wiki- Game Companion Database (DBMS PBL Project)
 
 A web application and PostgreSQL database that organises game-companion data: characters, weapons, artifact sets, combat and exploration tier lists, recommended builds with teammates, and per-build damage logs with graphs. The dataset is Genshin Impact themed (fan-made, educational, no game assets, not affiliated with the publisher). The database is hosted on **Neon** (cloud PostgreSQL).
 
